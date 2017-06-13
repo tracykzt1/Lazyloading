@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	border: 0;
+}
+
+.imgbox{
+	width: 1300px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.imgbox .item{
+	float: left;
+	margin: 16px;
+	background: #fff url(../img/loading.gif) center top no-repeat;
+}
+
+.imgbox img{
+	width: 400px;
+	height: 600px;
+}
+
